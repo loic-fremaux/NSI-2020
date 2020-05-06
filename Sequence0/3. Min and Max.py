@@ -1,12 +1,16 @@
-def minimum(tab):
-    return extract(tab, lambda r, v: r > v)
+from _ast import Lambda
+from typing import List, Any
 
 
-def maximum(tab):
-    return extract(tab, lambda r, v: r < v)
+def minimum(tab: List[int]):
+    return extract(tab, lambda k, v: k > v)
 
 
-def extract(tab, comparator):
+def maximum(tab: List[int]):
+    return extract(tab, lambda k, v: k < v)
+
+
+def extract(tab: List[int], comparator: Lambda(bool)):
     result = tab[0]
     for i in range(len(tab)):
         if comparator(result, tab[i]):

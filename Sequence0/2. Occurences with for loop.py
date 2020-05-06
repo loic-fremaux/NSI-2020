@@ -1,4 +1,4 @@
-def find(elt, tab):
+def find(elt, tab: list):
     for i in range(0, len(tab)):
         if elt == tab[i]:
             return i

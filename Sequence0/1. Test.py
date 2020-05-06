@@ -1,4 +1,4 @@
-def find(elt, tab):
+def find(elt, tab: list):
     n = len(tab)
     i = 0
     while i < n and elt != tab[i]:

@@ -1,4 +1,7 @@
-def sort(tab: list):
+from typing import List
+
+
+def sort(tab: List[int]):
     l = len(tab)
     for i in range(l):
         maxi = i
