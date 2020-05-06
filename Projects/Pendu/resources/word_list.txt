@@ -1,0 +1,6 @@
+chaise
+table
+ordinateur
+clavier
+souris
+telephone
