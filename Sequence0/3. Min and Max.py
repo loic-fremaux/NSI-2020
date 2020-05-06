@@ -14,7 +14,7 @@ def extract(list, comparator):
     return result
 
 
-# Tests
+#  Tests
 tab = [4, 3, 9, 7, 11, 5, 4, 8, 9, 0, 1]
 print("Smallest number is: ", minimum(tab))
 print("Biggest number is: ", maximum(tab))

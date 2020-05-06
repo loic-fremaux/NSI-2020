@@ -9,7 +9,7 @@ def find(elt, tab):
         return i
 
 
-# Tests
+#  Tests
 print(find(
     "2",
     ["un", "2", 3, "Quatre", 5]
